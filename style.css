@@ -43,6 +43,11 @@ h1 {
     padding: 5rem 0 15rem 0;
     text-align: center;
 }
+/* just for fun (rotation and hover) */
+h1:hover {
+    transform: rotate(360deg);
+    transition: 5s;
+}
 /* main part */
 main {
     padding-bottom: 6rem;
